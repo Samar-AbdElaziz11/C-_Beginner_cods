@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	
+	cout << "Samar \t sara \t salma\n" ;
+	
+	cout << "Aya \t mohammed\t Abdo" ;
+	
+	return 0;
