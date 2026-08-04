@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int  A = 9 ,  B = 2;
+	cout << " please enter the first number A? " << endl;
+	cin >> A;
+	
+	
+	cout << " please enter the secand number B? " << endl;
+	cin >> B;
+	
+	
+	cout << " A + B = " << A + B << endl;
+	cout << " A * B = " << A * B << endl;
+	cout << " A - B = " << A - B << endl;
+	cout << " A / B = " << A / B << endl;
+	cout << " A % B = " << A % B << endl;
+	
+	return 0;
+	
+	
+}
