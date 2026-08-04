@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	int mynumber1 , mynumber2 , mynumber3;
+	int total;
+	
+	cout << "please enter a number1?" << endl;
+	cin >>  mynumber1;
+	
+	cout << "please enter a number2?" << endl;
+	cin >> mynumber2;
+	
+	cout << "please enter a number3?" << endl;
+	cin >> mynumber3;
+	
+	total = mynumber1 + mynumber2 + mynumber3;
+	
+	cout <<"total" << total <<endl;
+	
+	
+	return 0;
+	
+}
