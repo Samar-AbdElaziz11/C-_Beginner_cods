@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+	
+	string name;
+	int age;
+	string city;
+	string country;
+	char gender;
+	bool married;
+	
+	cout << "please enter a name?" << endl;
+	cin >> name;
+	
+	cout << "please enter a age?" << endl;
+	cin >> age;
+	
+	cout << "please enter a city?" << endl;
+	cin >> city;
+	
+	cout << "please enter a country?" << endl;
+	cin >> country;
+	
+	cout << "please enter a gender?" << endl;
+	cin >> gender;
+	
+	cout << "are you married?" << endl;
+	cin >> married;
+	
+	
+	cout << "name" << name << endl;
+	cout << "age" << age << endl;
+	cout << "city" << city << endl;
+	cout << "country" << country << endl;
+	cout << "gender" << gender << endl;
+	cout << "married" << married << endl;
+	
+	return 0;
+	
+}
